@@ -1,10 +1,10 @@
-import React from 'react';
-
-function App() {
+import './index.css'
+export default function App() {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      This is a Tailwind CSS styled component.
-    </div>
-  );
+    <>
+    <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+  </>
+  )
 }
-export default App;
